@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: blue-deployment
-          image: argoproj/rollouts-demo:purple
+          image: argoproj/rollouts-demo:blue
           ports:
             - name: http
               containerPort: 8080
