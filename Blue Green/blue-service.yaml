@@ -10,5 +10,5 @@ spec:
       targetPort: http
       protocol: TCP
   selector:
-    name: blue-deployment
+    name: green-deployment
   type: LoadBalancer
